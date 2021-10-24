@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="L5Sedf" name="ColemanJ-P02-EQ" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginManufacturer="Musi45" pluginManufacturerCode="Mu45">
+  <MAINGROUP id="Ox77wq" name="ColemanJ-P02-EQ">
+    <GROUP id="{F45E1483-6779-764B-F2D9-603AD09959F5}" name="Mu45FilterCalc">
+      <FILE id="ikY2Z3" name="Mu45FilterCalc.cpp" compile="1" resource="0"
+            file="Source/Mu45FilterCalc/Mu45FilterCalc.cpp"/>
+      <FILE id="QEnAjM" name="Mu45FilterCalc.h" compile="0" resource="0"
+            file="Source/Mu45FilterCalc/Mu45FilterCalc.h"/>
+    </GROUP>
+    <GROUP id="{A9A866F0-D501-6F81-E2C0-0A982355AF41}" name="Source">
+      <FILE id="wXQ3Gn" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="zcawHC" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="OgyGky" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="AJKv0w" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{21FA8752-DB7B-AA92-DF06-84EAF56D35AF}" name="StkLite-4.6.1">
+      <FILE id="xsu0Bg" name="BiQuad.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/BiQuad.cpp"/>
+      <FILE id="bM7Oe2" name="BiQuad.h" compile="0" resource="0" file="Source/StkLite-4.6.1/BiQuad.h"/>
+      <FILE id="SCoqkd" name="Delay.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/Delay.cpp"/>
+      <FILE id="PUlz0L" name="Delay.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Delay.h"/>
+      <FILE id="bRYCky" name="DelayA.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/DelayA.cpp"/>
+      <FILE id="EtX47z" name="DelayA.h" compile="0" resource="0" file="Source/StkLite-4.6.1/DelayA.h"/>
+      <FILE id="YYFh1v" name="DelayL.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/DelayL.cpp"/>
+      <FILE id="MPbgWb" name="DelayL.h" compile="0" resource="0" file="Source/StkLite-4.6.1/DelayL.h"/>
+      <FILE id="Zybkl5" name="Filter.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Filter.h"/>
+      <FILE id="iMSNh9" name="Fir.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/Fir.cpp"/>
+      <FILE id="prhHd2" name="Fir.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Fir.h"/>
+      <FILE id="HkHEBb" name="FormSwep.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/FormSwep.cpp"/>
+      <FILE id="gmHTKo" name="FormSwep.h" compile="0" resource="0" file="Source/StkLite-4.6.1/FormSwep.h"/>
+      <FILE id="CsF3m1" name="Iir.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/Iir.cpp"/>
+      <FILE id="mLxEOW" name="Iir.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Iir.h"/>
+      <FILE id="CwQppx" name="OnePole.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/OnePole.cpp"/>
+      <FILE id="uwAmwj" name="OnePole.h" compile="0" resource="0" file="Source/StkLite-4.6.1/OnePole.h"/>
+      <FILE id="L0JngE" name="OneZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/OneZero.cpp"/>
+      <FILE id="gh1V6W" name="OneZero.h" compile="0" resource="0" file="Source/StkLite-4.6.1/OneZero.h"/>
+      <FILE id="kSnrQs" name="PoleZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/PoleZero.cpp"/>
+      <FILE id="ibUYi5" name="PoleZero.h" compile="0" resource="0" file="Source/StkLite-4.6.1/PoleZero.h"/>
+      <FILE id="ec7OtW" name="Stk.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/Stk.cpp"/>
+      <FILE id="i2vz1B" name="Stk.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Stk.h"/>
+      <FILE id="vmxb9m" name="TapDelay.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/TapDelay.cpp"/>
+      <FILE id="kJthfw" name="TapDelay.h" compile="0" resource="0" file="Source/StkLite-4.6.1/TapDelay.h"/>
+      <FILE id="eHJp5s" name="TwoPole.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/TwoPole.cpp"/>
+      <FILE id="FLGlZz" name="TwoPole.h" compile="0" resource="0" file="Source/StkLite-4.6.1/TwoPole.h"/>
+      <FILE id="VzFfGe" name="TwoZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/TwoZero.cpp"/>
+      <FILE id="x09Wph" name="TwoZero.h" compile="0" resource="0" file="Source/StkLite-4.6.1/TwoZero.h"/>
+    </GROUP>
+    <FILE id="mjPqzL" name="defines.h" compile="0" resource="0" file="Source/defines.h"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ColemanJ-P02-EQ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ColemanJ-P02-EQ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
